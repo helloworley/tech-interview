@@ -18,7 +18,6 @@ class LinkedList {
     const newHeadNode = new Node(data);
     const currentHeadNode = this.head;
     this.head = newHeadNode;
-    console.log('add to head');
     if (currentHeadNode) { // if the current head was !== null
       newHeadNode.setNextNode(currentHeadNode);
     }
