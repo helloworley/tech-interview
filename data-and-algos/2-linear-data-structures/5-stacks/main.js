@@ -1,4 +1,4 @@
-const Stack = require('./stack.js');
+const Stack = require('./Stack.js');
 
 const pizzaStack = new Stack(6);
 
