@@ -25,7 +25,7 @@ const merge = (leftArray, rightArray) => {
       rightArray.shift();
     }
   }
-  // either leftArray or rightArray will still ahve elements in it after the while loop.
+  // either leftArray or rightArray will still have elements in it after the while loop.
   // the .concat() method will add the remaining elements from this array to sortedArray.
   sortedArray = sortedArray.concat(leftArray).concat(rightArray);
   console.log('sorted array', sortedArray);
