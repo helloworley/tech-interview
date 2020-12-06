@@ -18,3 +18,4 @@ const iterativeFactorial = n => {
 // 1, 2, 6, 24, 120
 console.log(recursiveFactorial(5));
 console.log(iterativeFactorial(5));
+
