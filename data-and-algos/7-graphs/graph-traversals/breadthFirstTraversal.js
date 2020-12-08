@@ -1,5 +1,5 @@
 const testGraph = require('./testGraph.js');
-const Queue = require('./Queue.js');
+const Queue = require('../../2-linear-data-structures/queue/Queue.js');
 
 const breadthFirstTraversal = start => { // start is a vertex 
   const visitedVertices = [start]; // this keeps track of whih vertices we visited

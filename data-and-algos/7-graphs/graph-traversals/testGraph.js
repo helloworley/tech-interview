@@ -1,4 +1,4 @@
-const { Graph } = require('./Graph.js');
+const Graph = require('../graphs/Graph.js');
 
 const simpleGraph = new Graph(true, false);
 const startNode = simpleGraph.addVertex('v0.0.0');

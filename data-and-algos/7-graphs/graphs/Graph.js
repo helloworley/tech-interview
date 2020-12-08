@@ -1,5 +1,4 @@
 const Vertex = require('./Vertex.js');
-const Edge = require('./Edge.js');
 
 class Graph {
   constructor(isWeighted = false, isDirected = false) {
@@ -39,6 +38,10 @@ class Graph {
     } else {
       throw new Error('Expected Vertex arguments.');
     }
+  }
+
+  getVertexByValue(value) {
+    return this.vertices.find(vertex => vertex.data === value);
   }
 
   print() {
